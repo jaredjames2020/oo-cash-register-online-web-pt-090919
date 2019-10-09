@@ -22,6 +22,8 @@ class CashRegister
       p "After the discount, the total comes to $#{@total.to_i}."
     else
       p "After the discount, the total comes to $0."
+    end  
+    
   end
 
 end
