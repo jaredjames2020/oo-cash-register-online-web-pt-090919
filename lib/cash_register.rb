@@ -1,5 +1,5 @@
-class CashRegister
 require 'pry'
+class CashRegister
   attr_reader :discount, :items
   attr_writer :total
 
