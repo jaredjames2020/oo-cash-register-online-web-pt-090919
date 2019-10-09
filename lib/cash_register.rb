@@ -1,6 +1,6 @@
 class CashRegister
   
-  attr_reader :discount#, :items
+  attr_reader :discount
   attr_writer :total
 
   def initialize(discount=0)
@@ -27,10 +27,6 @@ class CashRegister
     else
       p "There is no discount to apply."
     end  
-  end
-
-  def items
-    @items
   end
 
 end
