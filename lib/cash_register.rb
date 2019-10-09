@@ -19,7 +19,6 @@ class CashRegister
     quantity.times do 
       @total = @total + price
       @items << title
-      
     end 
   end
   
