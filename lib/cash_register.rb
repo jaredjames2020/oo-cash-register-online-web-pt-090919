@@ -6,6 +6,7 @@ class CashRegister
   def initialize(discount=0)
     @total = 0
     @discount = discount
+    @items = Array.new
   end
   
   def total
@@ -25,9 +26,8 @@ class CashRegister
     end  
   end
   
-  def items
-    
-  
+  def items()
+    @items << item
   end
 
 end
