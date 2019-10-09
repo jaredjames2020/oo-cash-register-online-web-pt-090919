@@ -1,5 +1,5 @@
 class CashRegister
-  
+require 'pry'
   attr_reader :discount, :items
   attr_writer :total
 
@@ -30,6 +30,7 @@ class CashRegister
   end
 
   def void_last_transaction
+    binding.pry
   @total -= 
   
   end
